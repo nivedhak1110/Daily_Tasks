@@ -1,0 +1,38 @@
+1) what/ why express js
+https://www.besanttechnologies.com/what-is-expressjs
+
+2) what is middleware , express
+https://expressjs.com/en/guide/using-middleware.html
+https://developer.okta.com/blog/2018/09/13/build-and-understand-express-middleware-through-examples
+
+3) employee database - mysql
+
+>install mysql or run mysql docker container
+https://phoenixnap.com/kb/install-mysql-ubuntu-20-04
+>install npm mysql module
+npm install mysql
+> expressjs code to connect mysql
+https://expressjs.com/en/guide/database-integration.html#mysql
+
+
+3) express validator
+In short, Express Validator is an Express middleware library that you can incorporate in your apps for server-side data validation.
+
+you can use validator to check input json request objects. ex - is email ? is number? isLenghth more than 8 for pwd. etc.
+
+https://express-validator.github.io/docs/
+
+
+4) CORS
+https://www.section.io/engineering-education/how-to-use-cors-in-nodejs-with-express/
+http://expressjs.com/en/resources/middleware/cors.html
+
+5) Static
+https://expressjs.com/en/starter/static-files.html
+To return static files to client. ex simple file, html file, image etc
+
+6) sanitization
+https://express-validator.github.io/docs/sanitization.html
+https://express-validator.github.io/docs/filter-api.html
+
+sanitizer add extra checks/verify on top of validator.
