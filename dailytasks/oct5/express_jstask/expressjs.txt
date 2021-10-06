@@ -36,3 +36,6 @@ https://express-validator.github.io/docs/sanitization.html
 https://express-validator.github.io/docs/filter-api.html
 
 sanitizer add extra checks/verify on top of validator.
+
+7) mysql express typeorm
+https://betterprogramming.pub/get-started-with-typeorm-mysql-and-express-js-653270a6a078

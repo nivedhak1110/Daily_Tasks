@@ -13,7 +13,7 @@ const con = mysql.createConnection({
 });
 
 
-//establish connection
+//check connection
 con.connect(function (err) {
   if (err) throw err;
   console.log("Connected!");
@@ -47,8 +47,8 @@ app.post('/details',
         con.connect(function (err) {
           if (err) throw err;
           console.log("Connected!");
-          var sql = "INSERT INTO users SET ?"
-          var post = {
+          let sql = "INSERT INTO users SET ?"
+          let post = {
             name: req.body.name,
             email: req.body.email,
             phone: req.body.phone,
