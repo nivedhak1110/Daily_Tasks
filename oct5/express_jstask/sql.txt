@@ -1,0 +1,27 @@
+mysql console:
+/opt/lampp/bin/mysql -u root
+sudo /opt/lampp/lampp startmysql
+
+
+terminal myql install:
+sudo apt install mysql-server
+sudo apt install mysql-client
+sudo systemctl status mysql
+sudo mysql -u root
+
+start xampp:
+nivedha@nivedha:/opt/lampp$ sudo chmod 755 manager-linux-x64.run
+nivedha@nivedha:/opt/lampp$ sudo ./manager-linux-x64.run
+
+sudo service mysql stop
+
+process:
+ps -aux
+ps -aux | grep nodemon
+kill -9 ps processid
+lsof -i tcp:3000
+kill -9 ps processid
+
+database pooling:
+Database connection pooling is a method used to keep database connections open so they can be reused by others. Typically, opening a database connection is an expensive operation, especially if the database is remote. 
+You have to open up network sessions, authenticate, have authorisation checked, and so on
