@@ -1,7 +1,0 @@
-ExpressJS is a prebuilt NodeJS framework that can help you in creating server-side web applications faster and smarter. 
-Simplicity, minimalism, flexibility, scalability are some of its characteristics and since it is made in NodeJS itself, it inherited its performance as well.
-ease of coding
-
-Express 3.x is a light-weight web application framework to help organize your web application into an MVC architecture on the server side.
-You can then use a database like MongoDB with Mongoose (for modeling) to provide a backend for your Node.js application. 
-Express.js basically helps you manage everything, from routes, to handling requests and views.

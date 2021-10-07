@@ -1,6 +1,0 @@
-express-validator:
-express-validator is a set of express.js middlewares that wraps validator.js validator and sanitizer functions.
-
-Sanitization
-Sometimes, receiving input in a HTTP request isn't only about making sure that the data is in the right format, but also that it is free of noise.
-validator.js provides a handful of sanitizers that can be used to take care of the data that comes in.
