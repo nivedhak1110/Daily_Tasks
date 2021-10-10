@@ -14,6 +14,7 @@ nivedha@nivedha:/opt/lampp$ sudo chmod 755 manager-linux-x64.run
 nivedha@nivedha:/opt/lampp$ sudo ./manager-linux-x64.run
 
 sudo service mysql stop
+sudo service mysql status
 
 process:
 ps -aux

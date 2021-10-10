@@ -5,7 +5,6 @@ const express = require('express');
 const app = express();
 const uri = "mongodb+srv://nivedha:nivedha@cluster0.rv4ny.mongodb.net/Employee?retryWrites=true&w=majority"
 const EmployeeDetail = require('./models/employeeModel.js');
-const { request } = require('http');
 app.use(express.json());
 
 try {

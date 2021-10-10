@@ -12,8 +12,7 @@ createConnection().then(connection => {
     app.use(express.json());
 
     // register routes
-
-    // GET api to retrieve all employee details
+    // GET api to retrieve all employees details
     // http://localhost:3000/employees
     app.get("/employees", async function (req: Request, res: Response) {
         const employees = await employeesRepository.find();

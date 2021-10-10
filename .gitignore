@@ -1,3 +1,5 @@
 oct5/express_jstask/node_modules
 oct6/node_modules
 oct6/employeeDb/node_modules
+oct8/employeeDb-mongoDb/node_modules
+oct8/employeeDb-mongoDb/app_nodb.js
