@@ -6,4 +6,4 @@ oct5 - express.js express basics , expressjs employee details rest api without d
 
 oct6 - express.js employee details rest api with mysql database (type object relational mapping)
 
-oc8 - express.js details rest api  with mongoose object document model database
+oct8 - express.js details rest api  with mongoose object document model database
