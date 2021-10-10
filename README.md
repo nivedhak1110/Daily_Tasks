@@ -2,7 +2,7 @@
 
 oct4 - import exports
 
-oct5 - express.js express basics , expressjs employee details rest api without database , express validators,express middle wares,express cors
+oct5 - express.js express basics , expressjs employee details rest api without database , express validators(with mysql database) ,express middle wares,express cors
 
 oct6 - express.js employee details rest api with mysql database (type object relational mapping)
 
