@@ -1,0 +1,27 @@
+JavaScript coding standards:
+https://www.w3schools.com/js/js_conventions.asp
+
+APT-Automatic Package Transfer
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+Directories
+If you installed via the package manager, the data directory /var/lib/mongodb and the log directory /var/log/mongodb are created during the installation.
+
+sudo service mongod status
+sudo service mongod stop
+
+mongosh:
+The MongoDB Shell, mongosh , is a fully functional JavaScript and Node.
+REPL environment for interacting with MongoDB deployments. 
+You can use the MongoDB Shell to test queries and operations directly with your database. 
+mongosh is available as a standalone package in the MongoDB download center.
+
+MongoDB connection:
+https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database
+
+The underlying MongoDB driver has deprecated their current connection string parser. 
+Because this is a major change, they added the useNewUrlParser flag to allow users to fall back to the old parser if they find a bug in the new parser. 
+You should set useNewUrlParser: true unless that prevents you from connecting.
+
+the Unified Topology paradigm moves away from the concept of "connecting" and instead simply sets up a connection string and begins doing operations. 
+Each operation then fails or succeeds depending on whether the driver can reach a server at the time that operation is executed
